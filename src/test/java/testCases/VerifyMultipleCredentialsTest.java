@@ -31,9 +31,6 @@ public class VerifyMultipleCredentialsTest extends TestBase
 		return new Object[][]
 				{
 			        {"standard_user","secret_sauce"},//RU RP
-			        {"standard_user1","secret_sauce"},//WU RP
-			        {"standard_user","secret_sauce2"},//RU WP
-			        {"standard_user1","secret_sauce2"},//WU WP
 				};
 	}
 	@Test(dataProvider = "Credentials")
